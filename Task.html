@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <title>Task</title>
+        <link href="Task.css" rel="stylesheet">
+        <script src="Task.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Brand</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+      </li>
+      <li class="nav-item">
+        <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button type="button" class="btn btn-default">Submit</button>
+    </form>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+      </li>
+        </ul>
+    </form>
+  </div>
+</nav>  
+        
+        
+        <div class="container" >
+          <h1 class="display-5 font-weight-bold mt-3">Game Clock Exercise</h1>
+            <div class="row mx-0">
+              <div class="col border border-dark text-center ">
+                <h1 class="display-3 font-weight-bold mt-3">Clock 1</h1>
+                </div>
+              <div class="col-md-4 border border-dark text-center">
+                  <h2 id="c1" class=" font-weight-bold mt-4">20:00</h2>
+                  <button id="stop1" type="button" class="btn btn-danger font-weight-bold" onclick="Stop()">Stop</button>
+                  <button id="start1" type="button" class="btn btn-success font-weight-bold" onclick="Start()">Start</button>
+                  <button id="reset1" type="button" class="btn btn-outline-primary font-weight-bold" onclick="Reset()">Reset</button>
+                </div>
+            </div>
+            <div class="row justify-content-between mr-auto mt-4 mx-0 mb-4">
+                <div class="col d-inline-block border border-dark text-center mr-4 ">
+                    <h2 class="font-weight-bold mt-4 ">Clock 2</h2>
+                    <h3 class="font-weight-bold mt-4">20:00</h3>
+                    <button type="button" class="btn btn-danger font-weight-bold mb-2 ">Stop</button>
+                    <button type="button" class="btn btn-success font-weight-bold mb-2">Start</button>
+                    <button type="button" class="btn btn-outline-primary font-weight-bold mb-2">Reset</button>
+                </div>
+                <div class="col d-inline-block border border-dark text-center mr-4">
+                  <h2 class="font-weight-bold mt-4 ">Clock 3</h2>
+                    <h3 class="font-weight-bold mt-4">20:00</h3>
+                    <button type="button" class="btn btn-danger font-weight-bold mb-2">Stop</button>
+                    <button type="button" class="btn btn-success font-weight-bold mb-2">Start</button>
+                    <button type="button" class="btn btn-outline-primary font-weight-bold mb-2">Reset</button>
+                </div>
+                <div class="w-10"></div>
+                <div class="col  border border-dark text-center">
+                  <h2 class="font-weight-bold mt-4 ">Clock 4</h2>
+                    <h3 class="font-weight-bold mt-4">20:00</h3>
+                    <button type="button" class="btn btn-danger font-weight-bold mb-2">Stop</button>
+                    <button type="button" class="btn btn-success font-weight-bold mb-2">Start</button>
+                    <button type="button" class="btn btn-outline-primary font-weight-bold mb-2">Reset</button>
+                </div> 
+            </div>
+            <hr class="w-10" style="margin-bottom:5px !important; margin-top:5px !important; " />
+            <p>&copy; TEST.COM</p>
+        </div>
+    </body>
+</html>
