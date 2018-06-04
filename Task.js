@@ -69,7 +69,7 @@ function Stop4() {
     clearInterval(f[4]);
 }
 
-function Reset4() {5
+function Reset4() {
     clearInterval(f[4]);
     document.getElementById("c4").innerHTML = "20:00";
 }
